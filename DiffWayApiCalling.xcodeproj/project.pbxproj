@@ -13,6 +13,10 @@
 		ACCC28E1291CDE4000A1166F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACCC28DF291CDE4000A1166F /* Main.storyboard */; };
 		ACCC28E3291CDE4100A1166F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACCC28E2291CDE4100A1166F /* Assets.xcassets */; };
 		ACCC28E6291CDE4100A1166F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACCC28E4291CDE4100A1166F /* LaunchScreen.storyboard */; };
+		ACCC28EE291CDEB700A1166F /* FirstApiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCC28ED291CDEB700A1166F /* FirstApiViewController.swift */; };
+		ACCC28F5291CDF2D00A1166F /* MovieModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCC28F4291CDF2D00A1166F /* MovieModel.swift */; };
+		ACCC28F7291CDF5600A1166F /* MovieViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCC28F6291CDF5600A1166F /* MovieViewModel.swift */; };
+		ACCC28F9291CDF7000A1166F /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCC28F8291CDF7000A1166F /* Service.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		ACCC28E2291CDE4100A1166F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ACCC28E5291CDE4100A1166F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ACCC28E7291CDE4100A1166F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACCC28ED291CDEB700A1166F /* FirstApiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstApiViewController.swift; sourceTree = "<group>"; };
+		ACCC28F4291CDF2D00A1166F /* MovieModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieModel.swift; sourceTree = "<group>"; };
+		ACCC28F6291CDF5600A1166F /* MovieViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieViewModel.swift; sourceTree = "<group>"; };
+		ACCC28F8291CDF7000A1166F /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +64,7 @@
 		ACCC28D8291CDE4000A1166F /* DiffWayApiCalling */ = {
 			isa = PBXGroup;
 			children = (
+				ACCC28EF291CDEE200A1166F /* FirstApi */,
 				ACCC28D9291CDE4000A1166F /* AppDelegate.swift */,
 				ACCC28DB291CDE4000A1166F /* SceneDelegate.swift */,
 				ACCC28DD291CDE4000A1166F /* ViewController.swift */,
@@ -65,6 +74,49 @@
 				ACCC28E7291CDE4100A1166F /* Info.plist */,
 			);
 			path = DiffWayApiCalling;
+			sourceTree = "<group>";
+		};
+		ACCC28EF291CDEE200A1166F /* FirstApi */ = {
+			isa = PBXGroup;
+			children = (
+				ACCC28F3291CDF1100A1166F /* Controller */,
+				ACCC28F2291CDF0600A1166F /* ViewModel */,
+				ACCC28F1291CDEF900A1166F /* View */,
+				ACCC28F0291CDEF100A1166F /* Model */,
+			);
+			path = FirstApi;
+			sourceTree = "<group>";
+		};
+		ACCC28F0291CDEF100A1166F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				ACCC28F4291CDF2D00A1166F /* MovieModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		ACCC28F1291CDEF900A1166F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				ACCC28ED291CDEB700A1166F /* FirstApiViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		ACCC28F2291CDF0600A1166F /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				ACCC28F6291CDF5600A1166F /* MovieViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		ACCC28F3291CDF1100A1166F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				ACCC28F8291CDF7000A1166F /* Service.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +190,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACCC28EE291CDEB700A1166F /* FirstApiViewController.swift in Sources */,
+				ACCC28F9291CDF7000A1166F /* Service.swift in Sources */,
 				ACCC28DE291CDE4000A1166F /* ViewController.swift in Sources */,
+				ACCC28F5291CDF2D00A1166F /* MovieModel.swift in Sources */,
 				ACCC28DA291CDE4000A1166F /* AppDelegate.swift in Sources */,
 				ACCC28DC291CDE4000A1166F /* SceneDelegate.swift in Sources */,
+				ACCC28F7291CDF5600A1166F /* MovieViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
