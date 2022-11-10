@@ -22,5 +22,8 @@ class ViewController: UIViewController {
     }
     
 
+    @IBAction func btnSecondApi(_ sender: UIButton) {
+        
+    }
 }
 

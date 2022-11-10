@@ -41,22 +41,47 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Second Api" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kyq-cp-rDg">
+                                <rect key="frame" x="72.000000000000014" y="360" width="131.33333333333337" height="21"/>
+                                <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="24"/>
+                                <color key="textColor" red="0.14217173020000001" green="0.40903161110000003" blue="0.7329012533" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fB4-t7-LyU">
+                                <rect key="frame" x="240" y="346" width="93" height="35"/>
+                                <color key="backgroundColor" name="AccentColor"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Fetch">
+                                    <color key="baseForegroundColor" systemColor="labelColor"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="btnFirstApi:" destination="BYZ-38-t0r" eventType="touchUpInside" id="VTB-ZC-wMo"/>
+                                    <action selector="btnSecondApi:" destination="BYZ-38-t0r" eventType="touchUpInside" id="h5u-1u-2Vq"/>
+                                    <segue destination="oog-s3-Mci" kind="show" id="fcY-cc-Tzg"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="hWM-gU-6t0" secondAttribute="bottom" constant="536" id="3qW-UV-RMC"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="fB4-t7-LyU" secondAttribute="trailing" constant="60" id="41y-KG-bmN"/>
                             <constraint firstItem="GJZ-G3-1Sm" firstAttribute="top" secondItem="fHv-NA-BeE" secondAttribute="bottom" constant="85" id="5QU-Af-JqH"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="GJZ-G3-1Sm" secondAttribute="trailing" constant="60" id="F6w-MR-emn"/>
                             <constraint firstItem="fHv-NA-BeE" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="32" id="Hbk-s7-06j"/>
                             <constraint firstItem="GJZ-G3-1Sm" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="240" id="L8Q-K8-OR8"/>
+                            <constraint firstItem="fB4-t7-LyU" firstAttribute="leading" secondItem="kyq-cp-rDg" secondAttribute="trailing" constant="36.670000000000002" id="MbU-3T-JbQ"/>
+                            <constraint firstItem="kyq-cp-rDg" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="72" id="PQ6-kS-8e7"/>
                             <constraint firstItem="GJZ-G3-1Sm" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="151" id="WQ1-cN-qF4"/>
                             <constraint firstItem="fHv-NA-BeE" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="cN7-5x-ZGW"/>
+                            <constraint firstItem="kyq-cp-rDg" firstAttribute="top" secondItem="hWM-gU-6t0" secondAttribute="bottom" constant="78" id="eUs-hE-zJN"/>
                             <constraint firstItem="GJZ-G3-1Sm" firstAttribute="leading" secondItem="hWM-gU-6t0" secondAttribute="trailing" constant="10" id="gVE-aS-ff7"/>
                             <constraint firstAttribute="trailing" secondItem="fHv-NA-BeE" secondAttribute="trailing" constant="20" id="k7g-Ce-XuH"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="kyq-cp-rDg" secondAttribute="bottom" constant="437" id="nDh-0t-jPD"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="GJZ-G3-1Sm" secondAttribute="bottom" constant="529" id="nIm-Mq-XD7"/>
                             <constraint firstItem="hWM-gU-6t0" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="158" id="sLj-my-CEz"/>
                             <constraint firstItem="hWM-gU-6t0" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="72" id="vgY-t7-tEX"/>
+                            <constraint firstItem="fB4-t7-LyU" firstAttribute="top" secondItem="GJZ-G3-1Sm" secondAttribute="bottom" constant="57" id="zmX-HO-1iD"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="0WJ-B1-xXP"/>
@@ -80,6 +105,40 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pmD-8a-ACz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1719.8473282442746" y="-113.38028169014085"/>
+        </scene>
+        <!--JsonToDoApi-->
+        <scene sceneID="7J7-8Q-mpU">
+            <objects>
+                <viewController id="oog-s3-Mci" customClass="SecondApiViewController" customModule="DiffWayApiCalling" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="4uu-2h-7We">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="fTV-ey-euj">
+                                <rect key="frame" x="0.0" y="103" width="393" height="715"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="oog-s3-Mci" id="2ri-5C-3Rt"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="afu-db-RDK"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="fTV-ey-euj" firstAttribute="top" secondItem="afu-db-RDK" secondAttribute="top" id="NHq-VN-Ohn"/>
+                            <constraint firstItem="afu-db-RDK" firstAttribute="trailing" secondItem="fTV-ey-euj" secondAttribute="trailing" id="lCP-bd-rNQ"/>
+                            <constraint firstItem="fTV-ey-euj" firstAttribute="leading" secondItem="afu-db-RDK" secondAttribute="leading" id="mwQ-2G-WV4"/>
+                            <constraint firstItem="afu-db-RDK" firstAttribute="bottom" secondItem="fTV-ey-euj" secondAttribute="bottom" id="rBE-lc-5np"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="JsonToDoApi" id="AIt-IO-1OU"/>
+                    <connections>
+                        <outlet property="tblView" destination="fTV-ey-euj" id="Wej-Mo-24X"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XHx-CM-plQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2511" y="-113"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="IF1-VP-2xD">
