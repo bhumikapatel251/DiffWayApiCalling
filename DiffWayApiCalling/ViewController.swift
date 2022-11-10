@@ -15,10 +15,10 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     @IBAction func btnFirstApi(_ sender: UIButton) {
-        let controller = storyboard?.instantiateViewController(withIdentifier: "FirstApiVc") as! FirstApiViewController
-        
-        controller.modalPresentationStyle = .fullScreen
-        present(controller, animated: true, completion: nil)
+//        let controller = storyboard?.instantiateViewController(withIdentifier: "FirstApiVc") as! FirstApiViewController
+//        
+//        controller.modalPresentationStyle = .fullScreen
+//        present(controller, animated: true, completion: nil)
     }
     
 

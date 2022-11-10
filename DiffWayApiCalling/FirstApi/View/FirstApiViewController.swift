@@ -49,7 +49,7 @@ extension FirstApiViewController: UITableViewDelegate, UITableViewDataSource{
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
         let MVM = arrMovieVM[indexPath.row]
         cell.textLabel?.text = MVM.artistName ?? ""
-        cell.detailTextLabel?.text = MVM.trackName ?? ""
+       // cell.textLabel?.text = MVM.trackName ?? ""
         return cell
     }
     
