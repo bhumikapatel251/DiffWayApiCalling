@@ -17,11 +17,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GJZ-G3-1Sm">
-                                <rect key="frame" x="240" y="254" width="93" height="35"/>
+                            <button opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="751" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GJZ-G3-1Sm">
+                                <rect key="frame" x="20" y="292.33333333333331" width="353" height="35"/>
                                 <color key="backgroundColor" name="AccentColor"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Fetch">
+                                <buttonConfiguration key="configuration" style="plain" title="BollywoodMovieApi">
                                     <color key="baseForegroundColor" systemColor="labelColor"/>
                                 </buttonConfiguration>
                                 <connections>
@@ -29,9 +29,9 @@
                                     <segue destination="uG9-39-yFo" kind="show" id="lna-4E-nCZ"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="First Api" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hWM-gU-6t0">
-                                <rect key="frame" x="72" y="261" width="158" height="21"/>
-                                <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="24"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ContentType: text/javascript; charset=utf-8" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hWM-gU-6t0">
+                                <rect key="frame" x="10" y="201" width="373" height="20.333333333333343"/>
+                                <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="18"/>
                                 <color key="textColor" red="0.14217173024635954" green="0.40903161113642061" blue="0.73290125328481914" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -41,17 +41,32 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Second Api" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kyq-cp-rDg">
-                                <rect key="frame" x="72.000000000000014" y="360" width="131.33333333333337" height="21"/>
-                                <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="24"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ContentType:application/json; charset=utf-8" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kyq-cp-rDg">
+                                <rect key="frame" x="10" y="366" width="373" height="19"/>
+                                <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="17"/>
                                 <color key="textColor" red="0.14217173020000001" green="0.40903161110000003" blue="0.7329012533" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="https://itunes.apple.com/search?media=music&amp;term=bollywood" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2nF-aA-OJx">
+                                <rect key="frame" x="10" y="231.33333333333334" width="373" height="31.666666666666657"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="https://jsonplaceholder.typicode.com/todos" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="41h-Kc-6Nc">
+                                <rect key="frame" x="10" y="395" width="373" height="20.333333333333314"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fB4-t7-LyU">
-                                <rect key="frame" x="240" y="346" width="93" height="35"/>
+                                <rect key="frame" x="20" y="439" width="353" height="35"/>
                                 <color key="backgroundColor" name="AccentColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="C98-IZ-IWt"/>
+                                </constraints>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Fetch">
+                                <buttonConfiguration key="configuration" style="plain" title="JsonApi">
                                     <color key="baseForegroundColor" systemColor="labelColor"/>
                                 </buttonConfiguration>
                                 <connections>
@@ -64,24 +79,28 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="hWM-gU-6t0" secondAttribute="bottom" constant="536" id="3qW-UV-RMC"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="fB4-t7-LyU" secondAttribute="trailing" constant="60" id="41y-KG-bmN"/>
-                            <constraint firstItem="GJZ-G3-1Sm" firstAttribute="top" secondItem="fHv-NA-BeE" secondAttribute="bottom" constant="85" id="5QU-Af-JqH"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="GJZ-G3-1Sm" secondAttribute="trailing" constant="60" id="F6w-MR-emn"/>
+                            <constraint firstItem="GJZ-G3-1Sm" firstAttribute="top" secondItem="2nF-aA-OJx" secondAttribute="bottom" constant="29.329999999999998" id="7RR-uA-ZaI"/>
+                            <constraint firstItem="fB4-t7-LyU" firstAttribute="leading" secondItem="GJZ-G3-1Sm" secondAttribute="leading" id="A60-b2-lWc"/>
+                            <constraint firstItem="kyq-cp-rDg" firstAttribute="top" secondItem="GJZ-G3-1Sm" secondAttribute="bottom" constant="38.670000000000002" id="BTt-vp-s2L"/>
+                            <constraint firstItem="41h-Kc-6Nc" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="EGP-1p-FgZ"/>
+                            <constraint firstItem="GJZ-G3-1Sm" firstAttribute="top" secondItem="hWM-gU-6t0" secondAttribute="bottom" constant="71" id="GuQ-Vk-LzD"/>
                             <constraint firstItem="fHv-NA-BeE" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="32" id="Hbk-s7-06j"/>
-                            <constraint firstItem="GJZ-G3-1Sm" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="240" id="L8Q-K8-OR8"/>
-                            <constraint firstItem="fB4-t7-LyU" firstAttribute="leading" secondItem="kyq-cp-rDg" secondAttribute="trailing" constant="36.670000000000002" id="MbU-3T-JbQ"/>
-                            <constraint firstItem="kyq-cp-rDg" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="72" id="PQ6-kS-8e7"/>
-                            <constraint firstItem="GJZ-G3-1Sm" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="151" id="WQ1-cN-qF4"/>
+                            <constraint firstItem="kyq-cp-rDg" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="JXH-NO-yji"/>
+                            <constraint firstItem="fB4-t7-LyU" firstAttribute="centerX" secondItem="41h-Kc-6Nc" secondAttribute="centerX" id="Rdb-nQ-pyD"/>
+                            <constraint firstItem="hWM-gU-6t0" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="Sq0-Na-qqB"/>
+                            <constraint firstItem="41h-Kc-6Nc" firstAttribute="top" secondItem="kyq-cp-rDg" secondAttribute="bottom" constant="10" id="Vn0-16-Nhp"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="fB4-t7-LyU" secondAttribute="bottom" constant="344" id="c6u-wZ-OSW"/>
                             <constraint firstItem="fHv-NA-BeE" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="cN7-5x-ZGW"/>
-                            <constraint firstItem="kyq-cp-rDg" firstAttribute="top" secondItem="hWM-gU-6t0" secondAttribute="bottom" constant="78" id="eUs-hE-zJN"/>
-                            <constraint firstItem="GJZ-G3-1Sm" firstAttribute="leading" secondItem="hWM-gU-6t0" secondAttribute="trailing" constant="10" id="gVE-aS-ff7"/>
+                            <constraint firstItem="hWM-gU-6t0" firstAttribute="top" secondItem="fHv-NA-BeE" secondAttribute="bottom" constant="32" id="cZB-4v-cJ4"/>
+                            <constraint firstItem="2nF-aA-OJx" firstAttribute="top" secondItem="hWM-gU-6t0" secondAttribute="bottom" constant="10" id="e04-bh-FeO"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="hWM-gU-6t0" secondAttribute="trailing" constant="10" id="g9D-G6-FrP"/>
                             <constraint firstAttribute="trailing" secondItem="fHv-NA-BeE" secondAttribute="trailing" constant="20" id="k7g-Ce-XuH"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="kyq-cp-rDg" secondAttribute="bottom" constant="437" id="nDh-0t-jPD"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="GJZ-G3-1Sm" secondAttribute="bottom" constant="529" id="nIm-Mq-XD7"/>
-                            <constraint firstItem="hWM-gU-6t0" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="158" id="sLj-my-CEz"/>
-                            <constraint firstItem="hWM-gU-6t0" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="72" id="vgY-t7-tEX"/>
-                            <constraint firstItem="fB4-t7-LyU" firstAttribute="top" secondItem="GJZ-G3-1Sm" secondAttribute="bottom" constant="57" id="zmX-HO-1iD"/>
+                            <constraint firstAttribute="trailing" secondItem="2nF-aA-OJx" secondAttribute="trailing" constant="10" id="kXv-ZA-Wrg"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="kyq-cp-rDg" secondAttribute="trailing" constant="10" id="onY-rW-2yK"/>
+                            <constraint firstItem="2nF-aA-OJx" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="rLr-vt-Q6k"/>
+                            <constraint firstAttribute="trailing" secondItem="41h-Kc-6Nc" secondAttribute="trailing" constant="10" id="s0Q-HG-Pxh"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="GJZ-G3-1Sm" secondAttribute="trailing" constant="20" id="xBF-4q-ilY"/>
+                            <constraint firstItem="GJZ-G3-1Sm" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="zsZ-BE-89l"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="0WJ-B1-xXP"/>
@@ -125,10 +144,15 @@
                         <viewLayoutGuide key="safeArea" id="afu-db-RDK"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="fTV-ey-euj" firstAttribute="top" secondItem="afu-db-RDK" secondAttribute="top" constant="100" id="HB0-OT-HNF"/>
+                            <constraint firstItem="fTV-ey-euj" firstAttribute="bottom" secondItem="afu-db-RDK" secondAttribute="bottom" id="N8u-0h-GSE"/>
                             <constraint firstItem="fTV-ey-euj" firstAttribute="top" secondItem="afu-db-RDK" secondAttribute="top" id="NHq-VN-Ohn"/>
+                            <constraint firstItem="fTV-ey-euj" firstAttribute="leading" secondItem="afu-db-RDK" secondAttribute="leading" id="Z8h-RH-JJM"/>
                             <constraint firstItem="afu-db-RDK" firstAttribute="trailing" secondItem="fTV-ey-euj" secondAttribute="trailing" id="lCP-bd-rNQ"/>
                             <constraint firstItem="fTV-ey-euj" firstAttribute="leading" secondItem="afu-db-RDK" secondAttribute="leading" id="mwQ-2G-WV4"/>
+                            <constraint firstItem="fTV-ey-euj" firstAttribute="trailing" secondItem="afu-db-RDK" secondAttribute="trailing" id="qOb-Wx-o3z"/>
                             <constraint firstItem="afu-db-RDK" firstAttribute="bottom" secondItem="fTV-ey-euj" secondAttribute="bottom" id="rBE-lc-5np"/>
+                            <constraint firstItem="fTV-ey-euj" firstAttribute="top" secondItem="afu-db-RDK" secondAttribute="top" constant="50" id="veB-n2-CN9"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="JsonToDoApi" id="AIt-IO-1OU"/>
