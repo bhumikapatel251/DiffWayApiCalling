@@ -7,10 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AC499B2B291D06AE001EE08B /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC499B2A291D06AE001EE08B /* UserViewModel.swift */; };
-		AC499B2D291D06BA001EE08B /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC499B2C291D06BA001EE08B /* UserCell.swift */; };
-		AC499B2F291D06C0001EE08B /* UserCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC499B2E291D06C0001EE08B /* UserCell.xib */; };
-		AC499B31291D06C6001EE08B /* UModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC499B30291D06C6001EE08B /* UModel.swift */; };
 		AC499B33291D06F7001EE08B /* SecondApiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC499B32291D06F6001EE08B /* SecondApiViewController.swift */; };
 		AC499B36291D0938001EE08B /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = AC499B35291D0938001EE08B /* Alamofire */; };
 		ACCC28DA291CDE4000A1166F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCC28D9291CDE4000A1166F /* AppDelegate.swift */; };
@@ -23,13 +19,13 @@
 		ACCC28F5291CDF2D00A1166F /* MovieModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCC28F4291CDF2D00A1166F /* MovieModel.swift */; };
 		ACCC28F7291CDF5600A1166F /* MovieViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCC28F6291CDF5600A1166F /* MovieViewModel.swift */; };
 		ACCC28F9291CDF7000A1166F /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCC28F8291CDF7000A1166F /* Service.swift */; };
+		ACD0AE46292B70F100597558 /* UModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD0AE45292B70F100597558 /* UModel.swift */; };
+		ACD0AE48292B710000597558 /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD0AE47292B710000597558 /* UserCell.swift */; };
+		ACD0AE4A292B710600597558 /* UserCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ACD0AE49292B710600597558 /* UserCell.xib */; };
+		ACD0AE4E292B717F00597558 /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD0AE4D292B717F00597558 /* UserViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		AC499B2A291D06AE001EE08B /* UserViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UserViewModel.swift; path = ../../../../iOSApp/MVVMStoryboard/MVVMStoryboard/ViewModel/UserViewModel.swift; sourceTree = "<group>"; };
-		AC499B2C291D06BA001EE08B /* UserCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UserCell.swift; path = ../../../../iOSApp/MVVMStoryboard/MVVMStoryboard/View/UserCell.swift; sourceTree = "<group>"; };
-		AC499B2E291D06C0001EE08B /* UserCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = UserCell.xib; path = ../../../../iOSApp/MVVMStoryboard/MVVMStoryboard/View/UserCell.xib; sourceTree = "<group>"; };
-		AC499B30291D06C6001EE08B /* UModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UModel.swift; path = ../../../../iOSApp/MVVMStoryboard/MVVMStoryboard/Model/UModel.swift; sourceTree = "<group>"; };
 		AC499B32291D06F6001EE08B /* SecondApiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondApiViewController.swift; sourceTree = "<group>"; };
 		ACCC28D6291CDE4000A1166F /* DiffWayApiCalling.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DiffWayApiCalling.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACCC28D9291CDE4000A1166F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -43,6 +39,10 @@
 		ACCC28F4291CDF2D00A1166F /* MovieModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieModel.swift; sourceTree = "<group>"; };
 		ACCC28F6291CDF5600A1166F /* MovieViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieViewModel.swift; sourceTree = "<group>"; };
 		ACCC28F8291CDF7000A1166F /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		ACD0AE45292B70F100597558 /* UModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UModel.swift; path = ../../../../../../iOSApp/MVVMStoryboard/MVVMStoryboard/Model/UModel.swift; sourceTree = "<group>"; };
+		ACD0AE47292B710000597558 /* UserCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UserCell.swift; path = ../../../../../../iOSApp/MVVMStoryboard/MVVMStoryboard/View/UserCell.swift; sourceTree = "<group>"; };
+		ACD0AE49292B710600597558 /* UserCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = UserCell.xib; path = ../../../../../../iOSApp/MVVMStoryboard/MVVMStoryboard/View/UserCell.xib; sourceTree = "<group>"; };
+		ACD0AE4D292B717F00597558 /* UserViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UserViewModel.swift; path = ../../../../../../iOSApp/MVVMStoryboard/MVVMStoryboard/ViewModel/UserViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,7 +70,7 @@
 		AC499B27291D0638001EE08B /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				AC499B30291D06C6001EE08B /* UModel.swift */,
+				ACD0AE45292B70F100597558 /* UModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -78,8 +78,8 @@
 		AC499B28291D0642001EE08B /* View */ = {
 			isa = PBXGroup;
 			children = (
-				AC499B2C291D06BA001EE08B /* UserCell.swift */,
-				AC499B2E291D06C0001EE08B /* UserCell.xib */,
+				ACD0AE47292B710000597558 /* UserCell.swift */,
+				ACD0AE49292B710600597558 /* UserCell.xib */,
 				AC499B32291D06F6001EE08B /* SecondApiViewController.swift */,
 			);
 			path = View;
@@ -88,7 +88,7 @@
 		AC499B29291D0662001EE08B /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				AC499B2A291D06AE001EE08B /* UserViewModel.swift */,
+				ACD0AE4D292B717F00597558 /* UserViewModel.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -232,7 +232,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC499B2F291D06C0001EE08B /* UserCell.xib in Resources */,
+				ACD0AE4A292B710600597558 /* UserCell.xib in Resources */,
 				ACCC28E6291CDE4100A1166F /* LaunchScreen.storyboard in Resources */,
 				ACCC28E3291CDE4100A1166F /* Assets.xcassets in Resources */,
 				ACCC28E1291CDE4000A1166F /* Main.storyboard in Resources */,
@@ -247,15 +247,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				ACCC28EE291CDEB700A1166F /* FirstApiViewController.swift in Sources */,
-				AC499B2B291D06AE001EE08B /* UserViewModel.swift in Sources */,
+				ACD0AE4E292B717F00597558 /* UserViewModel.swift in Sources */,
+				ACD0AE46292B70F100597558 /* UModel.swift in Sources */,
 				ACCC28F9291CDF7000A1166F /* Service.swift in Sources */,
-				AC499B31291D06C6001EE08B /* UModel.swift in Sources */,
 				ACCC28DE291CDE4000A1166F /* ViewController.swift in Sources */,
 				ACCC28F5291CDF2D00A1166F /* MovieModel.swift in Sources */,
-				AC499B2D291D06BA001EE08B /* UserCell.swift in Sources */,
 				AC499B33291D06F7001EE08B /* SecondApiViewController.swift in Sources */,
 				ACCC28DA291CDE4000A1166F /* AppDelegate.swift in Sources */,
 				ACCC28DC291CDE4000A1166F /* SceneDelegate.swift in Sources */,
+				ACD0AE48292B710000597558 /* UserCell.swift in Sources */,
 				ACCC28F7291CDF5600A1166F /* MovieViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
